@@ -220,7 +220,8 @@ body {
 }
 .second-nav>.navbar{
    background-color: white !important; 
-    margin-bottom: 0em
+    margin-bottom: 0em;
+    box-shadow:  0px 4px 10px 0.05px #f7f2f4;
 }
 
 .right-table>tbody>tr:nth-child(2n) > td {
