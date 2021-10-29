@@ -154,9 +154,11 @@ body {
     top: 0;
     right: 0;
     font-family: "Ubuntu", sans-serif;
-    margin-top: 5em
+    margin-top: 7em
 }
-
+.dropdown-item{
+    float: right;
+}
 .others{
     width: 25%;
 }
@@ -179,8 +181,18 @@ body {
     margin-right: 1em;
     margin-left: 4em
 }
+.left{
+   text-align: center ;
+    padding: 0em !important;
+}
+.left>.img{
+   border-radius:  0.5em;
+    border-bottom: 1px solid #f4f4f4 !important;
+    border: 1px solid #fff;
+    margin-bottom: 1em;
+}
 .left>.img>.img-fluid{
-    height: 17em
+    height: 17em;
 }
 
 .info>button{
@@ -192,6 +204,9 @@ body {
      background: linear-gradient(to right, #FA5835, #E6443A );
     color: white;
     border: 1px solid #EF4833;
+}
+.left>div>.table>tbody>tr>td{
+    border: 1px solid white
 }
 .right{
      border: 1px solid white;
